@@ -30,10 +30,7 @@ Building the virtual machine is this easy:
     host $ vagrant up
 
 Provisioning is below:
-<<<<<<< HEAD
 
-=======
->>>>>>> 838260eb38f412972a86b30cf3ca2d828258e8e7
     host $ vagrant ssh-config --host development >> ~/.ssh/config
     host $ knife solo cook vagrant@192.168.33.11
 
